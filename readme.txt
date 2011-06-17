@@ -11,7 +11,7 @@ $eur_urls = array(
   "my-cool-url" => "my/absolute/path/to/my/cool/file.php"
 );
 
-[Support](https://github.com/blmstr/easy-url-rewrite)
+[Github](https://github.com/blmstr/easy-url-rewrite) | [Homepage](http://blog.bolmaster2.com/minimalistic-wordpress-plugin-to-create-custom-urls-including-custom-files/)
 
 == Installation ==
 1. Copy the plugin to your plugins directory.
