@@ -1,0 +1,8 @@
+Custom URL
+function prefix_news_rewrite_rule() {
+    add_rewrite_rule( 'news/([^/]+)/photos', 'index.php?news=$matches[1]&photos=yes', 'top' );
+    add_rewrite_rule( 'movie/([^/]+)/videos', 'index.php?news=$matches[1]&videos=yes', 'top' );
+}
+ 
+add_action( 'init', 'prefix_news_rewrite_rule' );
+
